@@ -11,7 +11,7 @@ The library is developed for the manage Rest API of the get articles from multip
 Clone the repository:
 
 ```
-git clone https://github.com/praveenpatel95/packt_backend_assessment.git
+git clone https://github.com/praveenpatel95/newsbackend.git
 
 ```
 
