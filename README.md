@@ -34,6 +34,13 @@ composer install
 Or you can run this command
 `cp .env.example .env`
 <br />Just update the database credentials.
+```
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=my_db_name
+DB_USERNAME=my_user_name
+DB_PASSWORD=my_password
+```
 
 
 2. Now you need to run migration command for create all migrations tables:
