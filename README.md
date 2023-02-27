@@ -17,7 +17,7 @@ git clone https://github.com/praveenpatel95/newsbackend.git
 
 Then cd into the folder with this command:
 ```
-cd packt_backend_assessment
+cd newsbackend
 ```
 
 Install composer with below command:
