@@ -10,7 +10,7 @@ class LoginRequest extends FormRequest
 {
     public function rules(){
         return [
-            'email' => 'required|email|max:255|exists:users,email',
+            'email' => 'required|email|max:255',
             'password' => 'required|min:8|max:16',
         ];
     }
@@ -24,7 +24,6 @@ class LoginRequest extends FormRequest
     {
         return [
             'email.required' => 'Email is required',
-            'email.exists' => 'This email address is not exist.',
             'password.required' => 'Password is required',
         ];
     }
